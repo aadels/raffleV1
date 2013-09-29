@@ -36,6 +36,5 @@ foreach($contestants as $name => $status) {
 	else($numberWinners = 1){
 		$message = "We have a winner!";
 	}
-	
 
 ?>
