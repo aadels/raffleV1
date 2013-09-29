@@ -33,12 +33,11 @@ foreach($contestants as $name => $status) {
 	if ($numberWinners = 0){
 		$message = "No winners this round :(";
 	}
-	elseif{
-		$numberWinners = 1;
+	elseif($numberWinners = 1){
+		
 		$message = "We have a winner!";
 	}
 	else{
-		$numberWinners > 1;
 		$message = "We have a tie!";
 	}
 
