@@ -19,6 +19,8 @@
 			<?=$name?> is a <?=$status?><br>
 		<? endforeach; ?>
 
+		<?=$numberWinners?>
+
 	</body>
 
 
