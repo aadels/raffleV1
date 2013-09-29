@@ -18,6 +18,7 @@ foreach($contestants as $name => $status) {
 	/*get random number*/
 	$randomNumber = rand(1,$numberOfContestants);
 	
+
 	/*compare random number for each contestant to the wimnning number*/
 	if ($randomNumber == $winningNumber){
 		$contestants[$name] = "winner!";
@@ -26,14 +27,13 @@ foreach($contestants as $name => $status) {
 		$contestants[$name] = "Loser :(";
 	}
 
-	/*print message about winner(s), no winner, or tie*/
+}
+/*print message about winner(s), no winner, or tie*/
 	if ($randomNumber != $winningNumber){
 		$numberWinners = "No winners this round :(";
 	}
 	else{
 		$numberWinners = "We have winner!";
 	}
-
-}
 
 ?>
