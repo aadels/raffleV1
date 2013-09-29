@@ -5,7 +5,7 @@
 		<title>Raffle v1</title>
 		
 		<?php
-		require_once(logic.php);
+		require_once('logic.php');
 		?>
 	
 	</head>
