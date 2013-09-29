@@ -9,7 +9,7 @@ $contestants["Larry"] = "";
 /*variables for count and random pick*/
 
 $numberOfContestants = count($contestants);
-$winningNumber = rand(0,$numberOfContestants);
+$winningNumber = rand(1,$numberOfContestants);
 
 
 /*loop through all contestants*/
