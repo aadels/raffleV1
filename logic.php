@@ -31,7 +31,7 @@ foreach($contestants as $name => $status) {
 }
 /*print message about winner(s), no winner, or tie*/
 	if ($numberWinners > 1){
-		$message = "We have a tie"!;
+		$message = "We have a tie!";
 	}
 	else($numberWinners = 1){
 		$message = "We have a winner!";
