@@ -15,8 +15,8 @@
 		Refresh to play again
 		The winning number is <?contestanst?>! <br>
 
-		<? foreach(contestants as $name => $status): ?>
-			<?=$name?> is a <?$status?><br>
+		<? foreach($contestants as $name => $status): ?>
+			<?=$name?> is a <?=$status?><br>
 		<? endforeach; ?>
 
 	</body>
