@@ -18,7 +18,7 @@ foreach($contestants as $name => $status) {
 	$randomNumber = rand(1,$numberOfContestants);
 	
 	/*compare random number for each contestant to the wimnning number*/
-	if (&randomNumber == $winningNumber){
+	if ($randomNumber == $winningNumber){
 		$contestants[$name] = "winner!";
 	}
 	else{
