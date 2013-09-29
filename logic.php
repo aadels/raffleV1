@@ -11,7 +11,7 @@ $contestants["Mairead"] = "";
 
 $numberOfContestants = count($contestants);
 $winningNumber = rand(1,$numberOfContestants);
-$numberOfWinners = count($contestants[$name] = "winner!");
+
 
 
 /*loop through all contestants*/
@@ -30,7 +30,7 @@ foreach($contestants as $name => $status) {
 	}
 
 }
-/*print message about winner(s), no winner, or tie*/
+/*print message about winner(s), no winner, or tie
 	if ($numberOfWinners > 1){
 		$message = "We have a tie!";
 	}
@@ -39,5 +39,5 @@ foreach($contestants as $name => $status) {
 	}
 	else{
 		$message = "We have a winner!";
-	}
+	}*/
 ?>
