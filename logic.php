@@ -29,6 +29,7 @@ foreach($contestants as $name => $status) {
 	/*print message about winner(s), no winner, or tie*/
 	if ($randomNumber != $winningNumber){
 		$numberWinners = "No winners this round :(";
+	}
 	else{
 		$numberWinners = "We have winner!";
 	}
