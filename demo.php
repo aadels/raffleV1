@@ -21,7 +21,7 @@
 
 		<br><br>
 
-		<?=$numberWinners?>
+		<?=$message?>
 
 	</body>
 
