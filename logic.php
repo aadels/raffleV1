@@ -10,7 +10,7 @@ $contestants["Larry"] = "";
 
 $numberOfContestants = count($contestants);
 $winningNumber = rand(1,$numberOfContestants);
-$numberWinners = count($randomNumber == $winningNumber);
+$numberOfWinners = count($contestants[$name] = "winner!");
 
 
 /*loop through all contestants*/
@@ -30,10 +30,10 @@ foreach($contestants as $name => $status) {
 
 }
 /*print message about winner(s), no winner, or tie*/
-	if ($numberWinners > 1){
+	if ($numberOfWinners > 1){
 		$message = "We have a tie!";
 	}
-	elseif($numberWinners < 1){
+	elseif($numberOfWinners < 1){
 		$message = "No winners this time. :(";
 	}
 	else{
