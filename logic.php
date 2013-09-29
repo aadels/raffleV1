@@ -30,15 +30,13 @@ foreach($contestants as $name => $status) {
 
 }
 /*print message about winner(s), no winner, or tie*/
-	if ($numberWinners = 0){
-		$message = "No winners this round :(";
+	if ($numberWinners > 1 {
+		$message = "We have a tie"!;
 	}
-	elseif($numberWinners = 1){
+	else($numberWinners = 1){
 		
 		$message = "We have a winner!";
 	}
-	else{
-		$message = "We have a tie!";
-	}
+	
 
 ?>
