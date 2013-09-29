@@ -5,6 +5,7 @@ $contestants["Rick"] = "";
 $contestants["Julie"] = "";
 $contestants["Ann"] = "";
 $contestants["Larry"] = "";
+$contestants["Mairead"] = "";
 
 /*variables for count and random pick*/
 
