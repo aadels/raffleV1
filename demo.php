@@ -13,7 +13,7 @@
 	<body>
 
 		Refresh to play again<br><br>
-		The winning number is <?$winningNumber?>! <br><br>
+		The winning number is <?=$winningNumber?>! <br><br>
 
 		<? foreach($contestants as $name => $status): ?>
 			<?=$name?> is a <?=$status?><br>
