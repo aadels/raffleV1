@@ -41,5 +41,6 @@ foreach($contestants as $name => $status) {
 	}
 	else{
 		$message = "We have a winner!";
+	}
 	
 ?>
